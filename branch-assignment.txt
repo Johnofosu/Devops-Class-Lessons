@@ -1,0 +1,3 @@
+Answers to asignemnt
+1.	Explain the Git workflow
+git workflow is the process adopted by collaborators in a project development to streamline their delivery process to pave way for smoother conflict resolution and a more coherent code base. 
