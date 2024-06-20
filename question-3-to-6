@@ -1,0 +1,14 @@
+3. To check the status of your Git repository, you can use the git command "git status". This command provides details about the current the current branch you are on and whether the files on it are being tracked or not. It helps you to see the changes that have been added to the staging,and ready for committing to the local repository.  
+4. To stage changes, you use the command git add 'file name'
+To commit changes you use the command git commint -m "message"
+5. To create a new branch you use the git command "git branch 'branch name'" 
+6. Git branching strategy is a strategy that software development teams adopt for writing, merging and deploying code with the help of a version control system like Git. It lays down a set of rules that aid the developers on how to go about the development process and interact with a shared codebase. Among the branching strategies are the following;
+a. Git Flow
+Git Flow is a branching strategy that emphasizes a strict branching model for project development. It includes several branch types:
+ain Branch,Develop Branch,Feature Branches,Release Branches,Hotfix Branches.
+b. GitHub Flow
+GitHub Flow is a simpler, more streamlined branching strategy suitable for continuous deployment. It uses only two main branches ie. Main Branch and feature branch.
+c. GitLab Flow
+GitLab Flow integrates with GitLab's CI/CD capabilities and supports various environments like development, staging, and production. It emphasizes Main Branch,Environment Branches and Feature Branches
+d. Trunk-Based Development
+Trunk-Based Development is a branching strategy where all developers work on a single branch, usually main. Short-lived feature branches may be created but are merged back into the main branch frequently, sometimes several times a day.
